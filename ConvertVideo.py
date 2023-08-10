@@ -7,8 +7,8 @@ import math
 
 root = os.getcwd()
 
-FileInputName = "frog"
-FileName = "frog3"
+FileInputName = "walk"
+FileName = "luffy-W"
 
 skip = 1
 maxDuration = 60 * 60 #max duration (seconds)
@@ -20,7 +20,7 @@ clip = mp.VideoFileClip(root + "/videos/"+FileInputName+".mp4")
 # clip = resize(clip, height=500) n sei oq eu queria cm iss
 sizes = clip.size
 
-pixels = 256 / 2
+pixels = 256
 ratio = min(pixels / sizes[0], pixels / sizes[1])
 
 Color2 = ImageColor.getcolor("white", "RGB")
