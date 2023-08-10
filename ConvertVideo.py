@@ -7,18 +7,20 @@ import math
 
 root = os.getcwd()
 
-name = "frog"
+FileInputName = "frog"
+FileName = "frog3"
+
 skip = 1
 maxDuration = 60 * 60 #max duration (seconds)
 
 VideoArray = [] #image
 Video2Array= [] #Matriz
-clip = mp.VideoFileClip(root + "/videos/"+name+".mp4")
+clip = mp.VideoFileClip(root + "/videos/"+FileInputName+".mp4")
 
 # clip = resize(clip, height=500) n sei oq eu queria cm iss
 sizes = clip.size
 
-pixels = 256
+pixels = 256 / 2
 ratio = min(pixels / sizes[0], pixels / sizes[1])
 
 Color2 = ImageColor.getcolor("white", "RGB")
@@ -122,10 +124,10 @@ def GetFrames(times, imgdir):
         print(int(t/skip)," / ", int(times/skip),"                                  no skip: ", times)
 
     newClip = mp.ImageSequenceClip(VideoArray, fps=clip.fps / skip)
-    newClip.write_videofile(imgdir+ "/" +name+".mp4")
+    newClip.write_videofile(imgdir+ "/" +FileName+".mp4")
 
     newMatrizClip = mp.ImageSequenceClip(Video2Array, fps=clip.fps / skip)
-    newMatrizClip.write_videofile(imgdir+ "/" +name+"-Matriz.mp4")
+    newMatrizClip.write_videofile(imgdir+ "/" +FileName+"-Matriz.mp4")
 
 
 GetFrames(int(clip.fps * min(clip.duration, maxDuration)), root + "/videoResult")
