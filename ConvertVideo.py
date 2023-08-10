@@ -1,6 +1,6 @@
 from PIL import Image, ImageColor, ImageFilter
 import moviepy.editor as mp
-from moviepy.video.fx.resize import resize
+# from moviepy.video.fx.resize import resize
 import os
 import numpy as np
 import math
