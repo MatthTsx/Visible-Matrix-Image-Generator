@@ -3,12 +3,13 @@ Just a math homework for Etec Rosa Perrone Scavone
 
 # Python requirements
 Make sure the following libraries are installed: <br/>
-<h4>pillow</h4>
-<h4>moviepy</h4>
-<h4>numpy</h4>
-<h4>os</h4>
-<h4>math</h4>
-
+<ul>
+  <li>pillow</li>
+  <li>moviepy</li>
+  <li>numpy</li>
+  <li>os</li>
+  <li>math</li>
+</u/l>
 # How to use (ConvertVideo.py)
 1 - make a folder with the name "videos" inside the project <br/>
 2 - put your .mp4 there <br/>
