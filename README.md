@@ -9,7 +9,7 @@ Make sure the following libraries are installed: <br/>
   <li>numpy</li>
   <li>os</li>
   <li>math</li>
-</u/l>
+</ul>
 # How to use (ConvertVideo.py)
 1 - make a folder with the name "videos" inside the project <br/>
 2 - put your .mp4 there <br/>
