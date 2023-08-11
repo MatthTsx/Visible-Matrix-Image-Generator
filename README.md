@@ -2,7 +2,7 @@
 Just a math homework for Etec Rosa Perrone Scavone
 
 # How to use (ConvertVideo.py)
-1 - make an "videos" folder inside the project <br/>
+1 - make a "videos" folder inside the project <br/>
 2 - put your .mp4 there <br/>
 3 - change the FileInputFile to your video's name <br/>
 4 - change the FileName to whatever you want <br/>
