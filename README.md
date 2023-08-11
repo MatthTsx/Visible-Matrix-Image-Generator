@@ -6,7 +6,7 @@ Make sure the following libraries are installed: <br/>
 <h4>pillow</h4>
 <h4>moviepy</h4>
 <h4>numpy</h4>
-<h4>ps</h4>
+<h4>os</h4>
 <h4>math</h4>
 
 # How to use (ConvertVideo.py)
