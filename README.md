@@ -1,6 +1,14 @@
 # Visible-Matrix-Image-Generator
 Just a math homework for Etec Rosa Perrone Scavone
 
+# Python requirements
+Make sure the following libraries are installed: <br/>
+<h3>pillow</h2>
+<h3>moviepy</h2>
+<h3>numpy</h2>
+<h3>ps</h2>
+<h3>math</h2>
+
 # How to use (ConvertVideo.py)
 1 - make a folder with the name "videos" inside the project <br/>
 2 - put your .mp4 there <br/>
